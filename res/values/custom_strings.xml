@@ -16,22 +16,22 @@
 -->
 <resources>
     <!-- DC Dimming settings -->
-    <string name="display_title">Display</string>
-    <string name="dc_dimming_enable_title">Anti flicker</string>
-    <string name="dc_dimming_enable_summary">Anti flicker mode helps reducing eyestrain in low light conditions by using "DC dimming" feature. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="dc_dimming_enable_summary_not_supported">Anti flicker is currently not supported by the kernel</string>
+    <string name="display_title">Display enhancements</string>
+    <string name="dc_dimming_enable_title">Anti-flicker mode</string>
+    <string name="dc_dimming_enable_summary">Reduce low-brightness flicker. Color accuracy may be affected.</string>
+    <string name="dc_dimming_enable_summary_not_supported">Anti-flicker mode is not supported by the current kernel</string>
 
     <!-- Dirac settings -->
-    <string name="dirac_enable">Use Mi Sound Enhancer</string>
-    <string name="dirac_title">Mi Sound Enhancer</string>
-    <string name="dirac_summary">Optimize audio quality</string>
-    <string name="dirac_headset_title">Choose headphones type</string>
-    <string name="dirac_preset_title">Choose a preset</string>
+    <string name="dirac_enable">Use MiSound</string>
+    <string name="dirac_title">MiSound</string>
+    <string name="dirac_summary">Audio enhancement and equalizer</string>
+    <string name="dirac_headset_title">Headphone profile</string>
+    <string name="dirac_preset_title">Equalizer preset</string>
 
     <!-- Dirac settings: Hi-Fi -->
     <string name="dirac_hifi_title">Hi-Fi</string>
-    <string name="dirac_hifi_summary">Decrease noise and Distortion and increase audio quality</string>
-    <string name="dirac_hifi_enable_title">Enable Hi-fi</string>
+    <string name="dirac_hifi_summary">Use the vendor Hi-Fi processing path when supported.</string>
+    <string name="dirac_hifi_enable_title">Use Hi-Fi</string>
 
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">Default</string>
@@ -116,7 +116,7 @@
 
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Clear speaker</string>
-    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second speaker-cleaning tone</string>
     <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
 
     <!-- Moto Actions - Title and summary -->
@@ -206,15 +206,15 @@
     <string name="notification_slider_mode_none">Normal</string>
 
     <!-- Thermal profiles -->
-    <string name="thermal_title">Optimization profiles</string>
-    <string name="thermal_summary">Adjust per-app profiles for optimum performance</string>
-    <string name="thermal_default">No optimization</string>
+    <string name="thermal_title">Thermal profiles</string>
+    <string name="thermal_summary">Choose a thermal profile for each app</string>
+    <string name="thermal_default">Default</string>
     <string name="thermal_benchmark">Performance</string>
     <string name="thermal_browser">Browser</string>
     <string name="thermal_camera">Camera</string>
     <string name="thermal_dialer">Dialer</string>
-    <string name="thermal_gaming">Games</string>
-    <string name="thermal_streaming">Streaming applications</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
 
     <!-- Raise to wake strings-->
     <string name="raise_to_wake_gesture_title">Raise to wake</string>
@@ -224,21 +224,21 @@
     <string name="device_min_refresh_rate">Minimum refresh rate</string>
     <string name="device_power_save_refresh_rate">Save battery automatically</string>
     <string name="device_power_save_refresh_rate_switch">Automatically lower refresh rate when battery saver is active</string>
-    <string name="refresh_rate_settings_title">Screen refresh rate</string>
-    <string name="refresh_rate_settings_summary">Adjust screen refresh rate</string>
-    <string name="refresh_rate_tile_title">Refresh Rate</string>
+    <string name="refresh_rate_settings_title">Refresh rate</string>
+    <string name="refresh_rate_settings_summary">Choose how quickly the display refreshes</string>
+    <string name="refresh_rate_tile_title">Refresh rate</string>
     <string name="refresh_rate_tile_disabled">Battery saver enabled</string>
 
     <!-- Touch Control Settings -->
-    <string name="touch_control_title">Touch screen optimizations</string>
-    <string name="touch_game_mode_title">Enable game mode</string>
-    <string name="touch_game_mode_summary">Helps to improve the gaming experience by optimizing the touch screen</string>
+    <string name="touch_control_title">Game touch controls</string>
+    <string name="touch_game_mode_title">Use game touch controls</string>
+    <string name="touch_game_mode_summary">Apply the saved touch profile while this app is active</string>
     <string name="touch_response_title">Touch response</string>
-    <string name="touch_response_summary">Controls touch response</string>
+    <string name="touch_response_summary">Adjust tap response for the selected app</string>
     <string name="touch_sensitivity_title">Touch sensitivity</string>
-    <string name="touch_sensitivity_summary">Controls the sensitivity for repeated taps</string>
-    <string name="touch_resistant_title">Touch-resistant area</string>
-    <string name="touch_resistant_summary">Reduces sensitivity near the edges to prevent accidental touches</string>
+    <string name="touch_sensitivity_summary">Adjust sensitivity for repeated taps</string>
+    <string name="touch_resistant_title">Edge resistance</string>
+    <string name="touch_resistant_summary">Reduce edge sensitivity to prevent accidental touches</string>
 
     <!-- Button settings -->
     <string name="button_settings_title">Buttons</string>
@@ -252,7 +252,7 @@
     <string name="stylus_title">Stylus Pen</string>
 
     <!-- High Brightness Mode-->
-    <string name="hbm_title">High Brightness Mode</string>
+    <string name="hbm_title">High brightness mode</string>
 
     <!-- LCD Features -->
     <string name="lcd_features_title">Additional Display Features</string>
@@ -260,8 +260,8 @@
     <string name="lcd_features_info">High Brightness Mode (HBM) increases the maximum brightness of the display to improve visibility under sunlight. Increases power consumption.\n\nContent Adaptive Backlight Control (CABC) adjusts display and backlight brightness based on currently shown content, to reduce power consumption without degradation.</string>
     <string name="kernel_not_supported">Kernel did not support this feature</string>
 
-    <string name="lcd_hbm_title">High Brightness Mode</string>
-    <string name="lcd_hbm_summary">Increase screen brightness under sunlight</string>
+    <string name="lcd_hbm_title">High brightness mode</string>
+    <string name="lcd_hbm_summary">Allow higher brightness for better visibility in direct sunlight</string>
     <string name="lcd_hbm_tile_title">HBM</string>
     <string name="lcd_hbm_title_enabled">Enabled</string>
     <string name="lcd_hbm_title_disabled">Disabled</string>
@@ -281,8 +281,8 @@
     <string name="doze_brightness_adaptive">Adaptive brightness</string>
 
     <!-- Refresh Rate per-app -->
-    <string name="refresh_title">Refresh rate per-app</string>
-    <string name="refresh_summary">Set a specific refresh rate for each application</string>
+    <string name="refresh_title">Per-app refresh rate</string>
+    <string name="refresh_summary">Set the maximum refresh rate for each app</string>
     <string name="refresh_default">Default</string>
     <string name="refresh_low">Low (30Hz)</string>
     <string name="refresh_medium">Medium (60Hz)</string>

@@ -9,7 +9,7 @@
     <string name="summary_empty" translatable="false"></string>
 
     <!-- Device specific settings -->
-    <string name="device_settings_app_name">Advanced settings</string>
+    <string name="device_settings_app_name">Device settings</string>
 
     <!-- Device gestures panel -->
     <string name="screen_gestures_panel_title">Gestures</string>
